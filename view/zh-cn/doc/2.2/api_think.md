@@ -674,6 +674,11 @@ let path = think.getPath('home', 'controller');
 
 返回一个特殊的 reject promise 。该 Promise 可以阻止后续的行为且不会报错。
 
+使用方法：
+```
+ return think.prevent();
+ ```
+
 #### think.log(msg, type, showTime)
 
 * `msg` {String | Error} 信息
